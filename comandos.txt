@@ -23,5 +23,5 @@ git status
 (comprueba el estado de la rama)git
 
 git remote add origin
-https://github.com/estebanmaya163-stack/Maquetado_web.git
+https://github.com/Llayow-stack/maquetado_web.git
 (añade la direccion de su repositorio se hace a ejecutar una unica vez
