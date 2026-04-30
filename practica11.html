@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<!-- La etiqueta table se utiliza para definir tablas en HTML. Todo el contenido de la tabla se coloca dentro de las etiquetas <table>. -->
+
+  <!-- La etiqueta tr se utiliza para definir una fila en una tabla. Cada fila puede contener una o mas celdas, que se definen utilizando las etiquetas <td> para celdas de datos y <th> para celdas de encabezado. -->
+
+  <!-- La etiqueta td se utiliza para definir una celda de datos en una tabla. Cada celda puede contener texto, imágenes, enlaces u otros elementos HTML. -->
+
+  <!-- La etiqueta th se utiliza para definir una celda de encabezado en una tabla. Las celdas de encabezado suelen contener texto en negrita y centrado, y se utilizan para describir el contenido de las columnas o filas. -->
+
+  <table border="2"> <!-- Etiqueta de Apertura de la tabla -->
+
+    <tr> <!-- Fila 1 -->
+      <th>Encabezado 1</th> <!-- Celda de Encabezado -->
+      <th>Encabezado 2</th> <!-- Celda de Encabezado -->
+      <th>Encabezado 3</th> <!-- Celda de Encabezado -->
+    </tr>
+
+    <tr> <!-- Fila 2 -->
+      <td>Dato 1</td> <!-- Celda de Datos --> 
+      <td>Dato 2</td> <!-- Celda de Datos --> 
+      <td>Dato 3</td> <!-- Celda de Datos -->
+    </tr>
+
+    <tr> <!-- Fila 3 -->
+      <td>Dato 1</td> <!-- Celda de Datos -->
+      <td>Dato 2</td> <!-- Celda de Datos --> 
+      <td>Dato 3</td> <!-- Celda de Datos --> 
+    </tr>
+
+  </table> <!-- Etiqueta de Cierre de la tabla -->
+<br>
+<br>
+  <table border="2"> <!-- Etiqueta de Apertura de la tabla -->
+    <caption>Paises y Capitales</caption>
+    <tr>
+      <th>País</th>
+      <th>Capital</th>
+    </tr>
+    <tr>
+      <td>España</td>
+      <td>Madrid</td>
+    </tr>
+    <tr>
+      <td>Francia</td>
+      <td>París</td>
+    </tr>
+  </table> <!-- Etiqueta de Cierre de la tabla -->
+  <br>
+  <br>
+  <table border="2"> <!-- Etiqueta de Apertura de la tabla -->
+    <tr>
+      <th colspan="4">Mundial de Futbol</th> <!-- Celda de Encabezado que ocupa 2 columnas-->
+    </tr>
+    <tr>
+      <td rowspan="3"> Paises con mayoria de Goles</td> <!-- Celda de Datos que ocupa 2 filas -->
+      <td>Brasil 2</td>
+    </tr>
+    <tr>
+      <td>Alemania 1</td>
+    </tr>
+    <tr>
+      <td>Argentina 1</td>
+    </tr>
+  </table> <!-- Etiqueta de Cierre de la tabla -->
+
+</body>
+</html>
